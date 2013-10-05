@@ -1,0 +1,29 @@
+a.button 
+  text-decoration: none
+
+.buy-button
+  @include sassy-button("simple", 8px, 14px, hsla(218, 94%, 67%, 1))
+  @include border-radius(8px 0 0 8px)
+
+.sample-button
+  @include sassy-button("simple", 8px, 14px, hsla(120, 50%, 55%, 1))
+  @include border-radius(0 8px 8px 0)
+
+.executr-run-button
+  @include sassy-button("simple", 8px, 14px, hsla(0, 0%, 71%, 1))
+  position: absolute
+  right: -23px
+
+.prev-button, .next-button 
+  padding: 15px
+
+.prev-button
+  @include sassy-button-gradient("flat", $prev-button-color)
+
+.next-button
+  @include sassy-button-gradient("flat", $next-button-color)
+  
+.sign-in-github
+  text-align: center
+  @include sassy-button-gradient("flat", $prev-button-color)
+  padding: 10px

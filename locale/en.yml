@@ -1,0 +1,15 @@
+en:
+  responder:
+    messages:
+      default:
+        create:  "%{model} has been successfully created."
+        update:  "%{model} has been successfully updated."
+        destroy: "%{model} has been successfully deleted."
+      accounts:
+        create:  "Account has been successfully created."
+        update:  "%{model} has been successfully updated."
+        destroy: "%{model} has been successfully deleted."
+      my_account:
+        create:  "Your account has been successfully created."
+        update:  "Your account has been successfully updated."
+        destroy: "Your account has been successfully deleted."

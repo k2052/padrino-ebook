@@ -1,0 +1,8 @@
+---
+:orm: mongomapper
+:test: rspec
+:mock: none
+:script: none
+:renderer: slim
+:stylesheet: compass
+:admin_renderer: slim

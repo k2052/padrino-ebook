@@ -1,0 +1,255 @@
+GIT
+  remote: git://github.com/k2052/kramdown.git
+  revision: 3c1b7c72b370bfe20690b2c37db632cc8afc35e8
+  specs:
+    kramdown (1.1.0)
+
+GIT
+  remote: git://github.com/k2052/padrino-responders.git
+  revision: 89d8fb3ef33b5766749af100445929573f218661
+  specs:
+    padrino-responders (0.1.5)
+      padrino (>= 0.10.2)
+      sinatra-flash (>= 0.3.0)
+
+GIT
+  remote: git://github.com/karmajunkie/imperator.git
+  revision: fbc7269b2593dbb4ba5711feab759f2d76f59312
+  specs:
+    imperator (0.2.0)
+      virtus
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (3.2.14)
+      activesupport (= 3.2.14)
+      builder (~> 3.0.0)
+    activesupport (3.2.14)
+      i18n (~> 0.6, >= 0.6.4)
+      multi_json (~> 1.0)
+    addressable (2.3.5)
+    atomic (1.1.14)
+    backports (3.3.4)
+    bcrypt-ruby (3.1.2)
+    bson (1.9.2)
+    bson_ext (1.9.2)
+      bson (~> 1.9.2)
+    builder (3.0.4)
+    chunky_png (1.2.8)
+    coffee-script (2.2.0)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.6.3)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    crack (0.4.1)
+      safe_yaml (~> 0.9.0)
+    descendants_tracker (0.0.1)
+    diff-lcs (1.2.4)
+    execjs (2.0.2)
+    factory_girl (4.1.0)
+      activesupport (>= 3.0.0)
+    faraday (0.8.8)
+      multipart-post (~> 1.2.0)
+    ffaker (1.15.0)
+    ffi (1.9.0)
+    fssm (0.2.10)
+    hashie (2.0.5)
+    hike (1.2.3)
+    http_router (0.11.0)
+      rack (>= 1.0.0)
+      url_mount (~> 0.2.1)
+    httpauth (0.2.0)
+    i18n (0.6.5)
+    jsmin (1.0.1)
+    jwt (0.1.8)
+      multi_json (>= 1.5)
+    magic (0.2.6)
+      ffi (>= 0.6.3)
+    mail (2.5.4)
+      mime-types (~> 1.16)
+      treetop (~> 1.4.8)
+    metaclass (0.0.1)
+    mime-types (1.25)
+    mocha (0.13.3)
+      metaclass (~> 0.0.1)
+    mongo (1.9.2)
+      bson (~> 1.9.2)
+    mongo_mapper (0.12.0)
+      activemodel (~> 3.0)
+      activesupport (~> 3.0)
+      plucky (~> 0.5.2)
+    multi_json (1.8.0)
+    multipart-post (1.2.0)
+    oauth2 (0.8.1)
+      faraday (~> 0.8)
+      httpauth (~> 0.1)
+      jwt (~> 0.1.4)
+      multi_json (~> 1.0)
+      rack (~> 1.2)
+    oj (2.1.4)
+    omniauth (1.1.4)
+      hashie (>= 1.2, < 3)
+      rack
+    omniauth-github (1.1.1)
+      omniauth (~> 1.0)
+      omniauth-oauth2 (~> 1.1)
+    omniauth-oauth2 (1.1.1)
+      oauth2 (~> 0.8.0)
+      omniauth (~> 1.0)
+    padrino (0.11.4)
+      padrino-admin (= 0.11.4)
+      padrino-cache (= 0.11.4)
+      padrino-core (= 0.11.4)
+      padrino-gen (= 0.11.4)
+      padrino-helpers (= 0.11.4)
+      padrino-mailer (= 0.11.4)
+    padrino-admin (0.11.4)
+      padrino-core (= 0.11.4)
+      padrino-helpers (= 0.11.4)
+    padrino-cache (0.11.4)
+      padrino-core (= 0.11.4)
+      padrino-helpers (= 0.11.4)
+    padrino-core (0.11.4)
+      activesupport (>= 3.1, < 4.0)
+      http_router (~> 0.11.0)
+      rack-protection (>= 1.5.0)
+      sinatra (~> 1.4.2)
+      thor (~> 0.17.0)
+      tilt (~> 1.4.1)
+    padrino-flash (0.2.0)
+      padrino-core
+      padrino-helpers
+    padrino-gen (0.11.4)
+      bundler (~> 1.0)
+      padrino-core (= 0.11.4)
+    padrino-helpers (0.11.4)
+      i18n (~> 0.6)
+      padrino-core (= 0.11.4)
+    padrino-mailer (0.11.4)
+      mail (~> 2.5.3)
+      padrino-core (= 0.11.4)
+    padrino-pipeline (0.3.0)
+      coffee-script (~> 2.2.0)
+      padrino-core (~> 0.11.0)
+      padrino-helpers (~> 0.11.0)
+      sass (~> 3.2.0)
+      sinatra-assetpack (~> 0.3.0)
+      sprockets (~> 2.10.0)
+      uglifier (~> 2.1.0)
+    plucky (0.5.2)
+      mongo (~> 1.5)
+    polyglot (0.3.3)
+    puma (2.6.0)
+      rack (>= 1.1, < 2.0)
+    rack (1.5.2)
+    rack-protection (1.5.0)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.1.0)
+    rest-client (1.6.7)
+      mime-types (>= 1.16)
+    rspec (2.13.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    rspec-core (2.13.1)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.13.1)
+    safe_yaml (0.9.7)
+    sass (3.2.11)
+    sassy-buttons (0.2.6)
+      compass (>= 0.12.2)
+    sinatra (1.4.3)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    sinatra-assetpack (0.3.1)
+      jsmin
+      rack-test
+      sinatra
+      tilt (>= 1.3.0)
+    sinatra-flash (0.3.0)
+      sinatra (>= 1.0.0)
+    slim (2.0.1)
+      temple (~> 0.6.6)
+      tilt (>= 1.3.3, < 2.1)
+    sprockets (2.10.0)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-sass (1.0.1)
+      sprockets (~> 2.0)
+      tilt (~> 1.1)
+    stripe (1.8.7)
+      multi_json (>= 1.0.4, < 2)
+      rest-client (~> 1.4)
+    susy (1.0.9)
+      compass (>= 0.12.2)
+      sass (>= 3.2.0)
+    temple (0.6.7)
+    thor (0.17.0)
+    thread_safe (0.1.3)
+      atomic
+    tilt (1.4.1)
+    treetop (1.4.15)
+      polyglot
+      polyglot (>= 0.3.1)
+    tzinfo (1.1.0)
+      thread_safe (~> 0.1)
+    uglifier (2.1.2)
+      execjs (>= 0.3.0)
+      multi_json (~> 1.0, >= 1.0.2)
+    url_mount (0.2.1)
+      rack
+    virtus (0.5.5)
+      backports (~> 3.3)
+      descendants_tracker (~> 0.0.1)
+    webmock (1.9.3)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
+    zurb-foundation (4.3.2)
+      sass (>= 3.2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bcrypt-ruby
+  bson_ext
+  coffee-script
+  compass
+  factory_girl (~> 4.1.0)
+  ffaker (~> 1.15.0)
+  imperator (~> 0.2.0)!
+  kramdown!
+  magic
+  mocha (~> 0.13.3)
+  mongo_mapper
+  multi_json
+  oj
+  omniauth-github
+  padrino
+  padrino-flash
+  padrino-pipeline
+  padrino-responders!
+  puma
+  rack-test (~> 0.6.2)
+  rake
+  rspec (~> 2.13.0)
+  sassy-buttons
+  slim
+  sprockets
+  sprockets-sass
+  stripe
+  susy
+  tzinfo
+  uglifier
+  webmock (~> 1.9.0)
+  zurb-foundation

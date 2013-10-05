@@ -1,0 +1,28 @@
+doctype 5
+html lang="en" 
+  head
+    meta charset="UTF-8"
+    title Stripe Padrino Ebook Demo App
+    link href='http://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,300,300italic' rel='stylesheet' type='text/css'
+    == stylesheet_link_tag 'app.css'
+  body
+    .top-bar
+      ul.title-area
+        li.name 
+          h1 Padrino Ebook
+      section.tob-bar-section
+        ul.right
+          li
+            - unless current_account
+               a href="auth/github" Sign In With Github
+
+    .main.container
+      - if flash
+        .flashes.sixcolumns
+          - if flash[:notice]
+            .alert-box.success== flash[:notice]
+          - elsif flash[:error]
+            .alert-box.alert== flash[:error]
+      == yield
+      
+    == javascript_include_tag 'app.js'

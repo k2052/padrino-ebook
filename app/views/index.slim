@@ -1,0 +1,16 @@
+.jumbotron
+  .jumbotron.content.twelve.Wcolumns
+    h1 Buy things now human!
+    p.lead
+      | This perhaps the greatest opportunity I'm so excited to present to once in a life time life changing product. 
+      | It will change everything. Make your life easier and give you all you desire.
+     
+    .six.columns.buy
+      - if current_account
+        form action="/charge" method="post"
+          script src="https://checkout.stripe.com/v2/checkout.js" class="buy-button stripe-button" data-key=ENV['STRIPE_PUBLISHABLE_KEY']
+      - else
+        == partial "partials/signup"
+        a.buy-button.button href="#" data-reveal-id="signupModal" Buy
+
+      a.sample-button.button href=url(:book, :sample_chapter, chapter: "first-chapter") Sample Chapter
