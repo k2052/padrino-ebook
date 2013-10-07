@@ -1,6 +1,6 @@
 # Stripe + Padrino + Ebook
 
-A very basic example for using Stripe together with Padrino to sell an web-accessible version of an ebook. Could be 
+A very basic example for using Stripe together with Padrino to sell a web-accessible version of an ebook. Could be 
 used as the starting point for selling an html ebook, an article, implementing a paywall etc.
 
 ![Screenshot](https://raw.github.com/k2052/padrino-ebook/master/screenshot.png)
