@@ -5,6 +5,9 @@ used as the starting point for selling an html ebook, an article, implementing a
 
 ![Screenshot](https://raw.github.com/k2052/padrino-ebook/master/screenshot.png)
 
+*Note* If you want to create a static free ebook have look at my other project 
+[middleman-ebook](https://github.com/k2052/middleman-ebook)
+
 ## Usage
 
 Rename _.env_example_ to _.env_ and edit the values to match your own.
